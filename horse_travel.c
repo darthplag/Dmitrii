@@ -25,6 +25,7 @@ void step(int begin, int n,int m, int steps[Max_step])
 		if (ost != 0 && ost < n - 2)
 			steps[3] = begin - n + 3;//вправо на 2
 	}
+
 	if (numb_str + 2 < m)//ходы вниз на 2
 	{
 		if (ost > 3 || (n > 3 && ost == 0)
