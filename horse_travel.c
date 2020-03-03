@@ -2,7 +2,7 @@
 #ifndef HORSE_TRAVEL_C
 #define HORSE_TRAVEL_C
 #define CRT_SECURE_NO_WARNINGS
-#define ERR1 1 //ошибка при чтении
+#define ERR1 13 //ошибка при чтении
 #include <stdio.h>
 //Максимальное число вариантов хода коня на данном поле
 #define Max_step 8
