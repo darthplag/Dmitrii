@@ -75,7 +75,7 @@ void print_way(int begin, int end, int n, int m, int* fild)
 	}
 }
 //чтение вводимых данных
-int scan(int *n, int* m, int *begin, int* end, int* trap1, int* trap2)
+int scan123(int *n, int* m, int *begin, int* end, int* trap1, int* trap2)
 {
 	int ok, mn;
 	printf("\n¬ведите длину строки");
